@@ -125,6 +125,9 @@ function displayBagSummary(){
         <span class="price-item-tag">Total Amount</span>
         <span class="price-item-value">Rs ${bagItems.length!==0?totalPrice()+99:0}</span>
       </div>
+      <button class="btn-place-order">
+        <div class="css-xjhrni">PLACE ORDER</div>
+      </button>
     </div>`
 }
 
